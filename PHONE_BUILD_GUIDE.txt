@@ -1,0 +1,37 @@
+NSE AI ANALYST — PHONE-ONLY APK BUILD
+
+You do NOT need Android Studio or a PC.
+
+1. Extract this ZIP on your Android phone using My Files.
+2. Open github.com in Chrome and sign in/create a GitHub account.
+3. Create a NEW repository named: nse-ai-analyst
+4. Open the new repository and choose Add file -> Upload files.
+5. Upload ALL files and folders inside the extracted NSE_AI_Analyst folder.
+   IMPORTANT: upload the CONTENTS of NSE_AI_Analyst, not the outer NSE_AI_Analyst folder itself.
+6. Commit the files to the main branch.
+7. Open Actions -> Build APK -> Run workflow.
+8. Wait for the green check.
+9. Open that completed workflow run -> Artifacts -> nse-ai-analyst-debug-apk.
+10. Download the artifact ZIP, open it, and install app-debug.apk on your phone.
+
+The workflow builds the debug APK in GitHub's cloud Android environment and stores the APK as a downloadable workflow artifact.
+
+If GitHub's mobile upload screen does not let you select folders, use the browser's desktop-site option, or upload the files one folder at a time while preserving their paths.
+
+The app contains:
+- Indian market dashboard
+- NIFTY 50 / Bank Nifty / India VIX context
+- Watchlist scanning
+- Technical BUY / STRONG BUY / HOLD / SELL signals
+- EMA 20/50/200, RSI, MACD, ATR and volume analysis
+- Reference entry, stop and target levels
+- Recent market/news headline checker
+- AI market chatbot
+- Risk and paper-trade calculator
+- No automatic broker order placement
+
+DATA NOTE
+The included public market-data source can be delayed, rate-limited or unavailable. It is NOT an exchange-certified real-time feed. The app displays freshness/error states instead of inventing missing data.
+
+AI KEY
+The app can store your OpenAI API key using Android Keystore-backed storage. Do not paste a broker password or trading PIN into the app.
